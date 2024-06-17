@@ -1,29 +1,35 @@
-@media(max-width:759px){
+@media(max-width:759px) {
   .container {
     width: 100%;
   }
+
   header {
     padding: 10px 0 80px 0;
   }
+
   .header-menu {
     display: block;
   }
+
   .header-left h1 {
     padding: 8px 0 0 15px;
     font-size: 30px;
     font-family: 'Vollkorn', serif;
     letter-spacing: 10px;
   }
+
   .header-left h2 {
     padding: 0 0 0 20px;
     font-size: 10px;
     font-family: 'Kaushan Script', cursive;
     letter-spacing: 3px;
   }
+
   .header-right {
     text-align: center;
     padding: 40px 22px 5px 21px;
   }
+
   .nav-list {
     padding-top: 20px;
     text-align: center;
@@ -33,12 +39,13 @@
     background: url(images/line_nav.gif) repeat-y right top;
     background-size: 1px 10px;
   }
-  
+
   .nav ul {
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
   }
+
   .nav li {
     padding: 20px 15px;
     border-top: 1px solid #d9d9d9;
@@ -47,9 +54,11 @@
     width: 50%;
     box-sizing: border-box;
   }
+
   .pc {
     display: none !important;
   }
+
   .sp {
     display: block !important;
     width: 100%;
@@ -63,9 +72,11 @@
     color: #333;
     font-family: 'IM Fell DW Pica SC', serif, butler;
   }
+
   .contents {
     display: block;
   }
+
   .myphoto img {
     width: 180px;
     padding: 30px 0px 20px 90px;
@@ -88,6 +99,7 @@
     text-align: center;
     width: 80%;
   }
+
   .skill-content h1 {
     font-weight: lighter;
     margin-bottom: 12px;
@@ -96,11 +108,13 @@
     font-size: 22px;
     color: #505050;
   }
+
   .skill-text {
     width: 100%;
     padding: 0 10px 40px 10px;
     text-align: justify
   }
+
   .sub {
     text-align: center;
     line-height: 1.0;
@@ -110,19 +124,24 @@
     letter-spacing: 0.1em;
     color: #a5a5a5;
   }
+
   .works-wrapper p {
     font-size: 15px;
     margin-bottom: 20px;
   }
+
   .work-contents img {
-    width: 280px;
+    width: 340px;
     height: 260px;
+    object-fit: contain;
   }
+
   .contact-wrapper p {
     font-size: 13px;
     margin-bottom: 20px;
     color: gray;
   }
+
   .contact-menu {
     padding-top: 30px;
   }
@@ -135,11 +154,13 @@
     display: block !important;
     text-align: center;
   }
+
   .totop a {
     display: block;
     margin-bottom: 20px;
     padding: 50px 20px 0 20px;
   }
+
   .totop img {
     width: 22px;
     height: 14px;
